@@ -1,5 +1,30 @@
-body {
-  background-color: pink;
+nav {
+  list-style-type:none;
+  background-color: lightgreen;
+  width: 100%;
+  overflow: hidden;
+  position: fixed;
+  text-align: center;
+  left: 0;
+  top: 0;
+  margin: 0;
+}
+li{
+  float: right;
+}
+li a{
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 15px 50px;
+}
+li a:hover {
+  background-color: antiquewhite;
+  color:black
+}
+
+center {
+  background-color: lightblue;
 }
 
 h3 {
@@ -9,7 +34,9 @@ h3 {
 }
 
 p {
-  color: black;
-  font-size: 50%;
+  color: white;
+  font-size: 200%;
   letter-spacing: 3px;
+  padding: 18px 20px;
 }
+
